@@ -9,8 +9,8 @@ carriers = {
 
 def send(message):
         # Replace the number with your own, or consider using an argument\dict for multiple people.
-	to_number = '908-320-5248{}'.format(carriers['googlefi'])
-	auth = ('masaldanaryan@gmail.com', 'frkfkodbzxoqxcno')
+	to_number = 'xxx-xxx-xxxx{}'.format(carriers['googlefi'])
+	auth = ('example@gmail.com', 'ENTER APP PASSWORD HERE')
 
 	# Establish a secure session with gmail's outgoing SMTP server using your gmail account
 	server = smtplib.SMTP( "smtp.gmail.com", 587 )

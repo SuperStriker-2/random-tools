@@ -1,5 +1,5 @@
 from PIL import Image
-import math\
+import math
 
 REFERENCE="ssss.png"
 WIDTH=100
